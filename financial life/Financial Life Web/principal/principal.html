@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./style.css">
+
+<head>
+  <title>Financial Life</title>
+</head>
+
+<body>
+  <h1>Financial Life</h1>
+
+  <section>
+    <form>
+      <label for="renda">Renda mensal:</label>
+      <input type="text" id="renda" name="renda" placeholder="Escreva o valor da sua renda mensal">
+
+      <label for="divida">Dívida:</label>
+      <input type="text" id="divida" name="divida" placeholder="Descreva uma dívida">
+
+      <label for="dividaValor">Valor da dívida:</label>
+      <input type="text" id="dividaValor" name="dividaValor" placeholder="Escreva o valor da dívida">
+
+      <input type="button" value="Adicionar Dívida" onclick="AdicionarDívida()">
+      <input type="button" value="Calcula Dívida" onclick="CalculaDívida()">
+    </form>
+    <div id="debt-list"></div>
+  </section>
+
+  <script src="./script.js"></script>
