@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body {
+  margin-top: 5%;
+  font-family: 'Rowdies';
+  font-size: 26;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0606f5;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  /*color: #0606f5;*/
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  /*color: #0606f5;*/
+}
+
+input::placeholder {
+  font-family: 'Rowdies';
+  /*color: #2aadf8;*/
+}
+
+input[type="button"] {
+  background-color: #0000CD;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Rowdies';
+}
+
+input[type="button"]:hover {
+  background-color: #00008B;
+}
+
+#debt-list {
+  margin-top: 40px;
+  text-align: center;
+  color: #0606f5;
+}
+
+#debt-list li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
